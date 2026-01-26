@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: blue;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  min-height: 100vh;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-line{
+  width: 6px;
+  height: 220px;
+  background: blue;
+}
+
+.left h1{
+  font-size: 60px;
+  color:white;
+  line-height: 1.2;
+}
+
+.right{
+  background: #fff;
+  padding: 30px;
+  width: 520px;
+  border-radius: 8px;
+}
+
+.right h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label{
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+input,
+select{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.row{
+  display: flex;
+  gap: 10px;
+}
+
+.row div{
+  width: 100%;
+}
+
+.gender{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.gender label{
+  font-weight: normal;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: rgb(89, 89, 227);
+}
+.vertical-line{
+  width: 10px;
+  height: 250px;
+  background-color: white;
+  margin: 40px 0;
+}
+.line{
+    font-size: 2px;
+}
