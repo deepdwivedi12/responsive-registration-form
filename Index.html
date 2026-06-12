@@ -1,66 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Responsive Registration Form</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <div class="main">
-    <div class="left">
-      <div class="vertical-line"><h1 class="line" style="font-size: 2px;">|</h1></div>
-         <h1>
-        Responsive<br>
-        Registration<br>
-        Form
-      </h1>
-    </div>
-    <div class="right">
-      <h2>Registration Form</h2>
+<div class="container">
 
-      <label>Full Name</label>
-      <input type="text" placeholder="Enter full name">
+    <div class="left-panel">
+        <div class="content">
+            <h1>Create Your Account</h1>
 
-      <label>Email Address</label>
-      <input type="email" placeholder="Enter email address">
+            <p>
+                Join thousands of users and experience a modern platform
+                designed for speed, security and simplicity.
+            </p>
 
-      <div class="row">
-        <div>
-          <label>Mobile Number</label>
-          <input type="text" placeholder="Enter mobile number">
+            <div class="features">
+                <div class="feature">✓ Secure Registration</div>
+                <div class="feature">✓ Modern User Interface</div>
+                <div class="feature">✓ Fully Responsive</div>
+                <div class="feature">✓ Fast & Reliable</div>
+            </div>
         </div>
-
-        <div>
-          <label>Birth Date</label>
-          <input type="date">
-        </div>
-      </div>
-
-      <label>Gender</label>
-      <div class="gender">
-        <label><input type="radio" name="gender"> Male</label>
-        <label><input type="radio" name="gender"> Female</label>
-        <label><input type="radio" name="gender"> Prefer not to say</label>
-      </div>
-
-      <label>Address</label>
-      <input type="text" placeholder="Enter address">
-
-      <div class="row">
-        <select>
-          <option>Country</option>
-          <option>India</option>
-          <option>USA</option>
-        </select>
-
-        <input type="text" placeholder="Enter postal code">
-      </div>
-
-      <button>Submit</button>
     </div>
 
-  </div>
+    <div class="right-panel">
+
+        <div class="form-card">
+
+            <h2>Registration Form</h2>
+
+            <form>
+
+                <div class="input-box">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your full name">
+                </div>
+
+                <div class="input-box">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="row">
+
+                    <div class="input-box">
+                        <label>Mobile Number</label>
+                        <input type="tel" placeholder="Enter mobile number">
+                    </div>
+
+                    <div class="input-box">
+                        <label>Date of Birth</label>
+                        <input type="date">
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="input-box">
+                        <label>Password</label>
+                        <input type="password" placeholder="Create password">
+                    </div>
+
+                    <div class="input-box">
+                        <label>Confirm Password</label>
+                        <input type="password" placeholder="Confirm password">
+                    </div>
+
+                </div>
+
+                <div class="gender-box">
+
+                    <label class="title">Gender</label>
+
+                    <div class="gender-options">
+
+                        <label class="gender-card">
+                            <input type="radio" name="gender">
+                            <span>Male</span>
+                        </label>
+
+                        <label class="gender-card">
+                            <input type="radio" name="gender">
+                            <span>Female</span>
+                        </label>
+
+                        <label class="gender-card">
+                            <input type="radio" name="gender">
+                            <span>Other</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="input-box">
+                    <label>Address</label>
+                    <textarea placeholder="Enter your address"></textarea>
+                </div>
+
+                <div class="row">
+
+                    <div class="input-box">
+                        <label>Country</label>
+
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>Canada</option>
+                            <option>Australia</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Postal Code</label>
+                        <input type="text" placeholder="Postal code">
+                    </div>
+
+                </div>
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
